@@ -1,0 +1,14 @@
+Nazwa projekt: Inteligentna waga kuchenna
+
+Waga ta posiada³aby w pamiêci zestaw przepisów potraw i wg nich odmierza³aby wagê potrzebnych produktów.
+
+wymagania funkcjonalne:
+wa¿enie produktów, wybór jednostki miary,wybór trybu wa¿enia(masa/objêtoœæ),funkcja "tarowania",
+
+wymagania niefunkcjonalne: zasilanie-zasilacz230/5V, max ciê¿ar wa¿onego produktu -5kg,OS Linux, mo¿liwoœc uzupe³naina bazy przepisów,wyœwietlanie danych w oknie przegl¹darki
+Baza przepisów by³aby aktualizowana poprzez wgrywanienowego (nadpisywanie)pliku z przepisami.Na urzadzeniu zainstalowany bêdzie https://ubuntu.com/server/docs/samba-file-server, 
+Urz¹dzenia:
+Raspberry Pi 4 Model B
+Belka tensometryczna NA27 5kg (50N)
+HX711 - wzmacniacz do belki tensometrycznej
+Ekran dotykowy - pojemnoœciowy LCD 4,3'' IPS 800x480px DSI dla Raspberry Pi - Waveshare 16239

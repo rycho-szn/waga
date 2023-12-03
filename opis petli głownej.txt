@@ -1,0 +1,21 @@
+
+
+Opis głównej pętli w formie Maszyny Stanów:
+Program działa w stałej pętli .
+Stan Początkowy:
+
+Program rozpoczyna się  , wyświetlając dostępne przepisy.
+Wybór Przepisu:
+
+Użytkownik wybiera przepis, wpisując jego nazwę lub "exit" aby zakończyć program.
+Ważenie Składników:
+
+Po wybraniu przepisu, program przechodzi  ważenia składników.
+Dla każdego składnika w przepisie program wyświetla informacje o składniku i ilość do dodania.
+Oczekuje na naciśnięcie Enter przez użytkownika.
+Mierzy wagę  składnikai Wyświetla zmierzoną wagęi opcjonalnie przelicza jednostki miary
+Powtarza powyższe kroki dla kolejnych składników.
+Program powraca do stanu wyboru przepisu.
+Zakończenie Programu:
+
+Użytkownik wpisuje "exit" , aby zakończyć program
