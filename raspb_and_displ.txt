@@ -1,0 +1,2 @@
+https://www.waveshare.com/wiki/4.3inch_DSI_LCD
+https://www.raspberrypi.com/documentation/computers/raspberry-pi.html
