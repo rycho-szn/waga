@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Spaghetti Bolognese",
+        "ingredients": [
+            {"name": "Makaron", "weight": 200},
+            {"name": "Mięso mielone", "weight": 300},
+            {"name": "Pomidor", "weight": 150},
+            {"name": "Cebula", "weight": 50},
+            {"name": "Sól", "weight": 5},
+            {"name": "Pieprz", "weight": 2}
+        ]
+    },
+    {
+        "name": "Sałatka Grecka",
+        "ingredients": [
+            {"name": "Pomidory", "weight": 100},
+            {"name": "Ogórek", "weight": 80},
+            {"name": "Feta", "weight": 120},
+            {"name": "Oliwki", "weight": 50},
+            {"name": "Oliwa z oliwek", "weight": 30},
+            {"name": "Sól", "weight": 3}
+        ]
+    },
+    {
+        "name": "Kurczak Curry",
+        "ingredients": [
+            {"name": "Kurczak", "weight": 250},
+            {"name": "Curry", "weight": 20},
+            {"name": "Cebula", "weight": 80},
+            {"name": "Czosnek", "weight": 10},
+            {"name": "Ryż", "weight": 150},
+            {"name": "Sól", "weight": 5}
+        ]
+    },
+    {
+        "name": "Pieczeń Wieprzowa",
+        "ingredients": [
+            {"name": "Mięso wieprzowe", "weight": 400},
+            {"name": "Ziemniaki", "weight": 200},
+            {"name": "Marchewka", "weight": 100},
+            {"name": "Czosnek", "weight": 15},
+            {"name": "Pieprz", "weight": 3},
+            {"name": "Sól", "weight": 6}
+        ]
+    },
+    {
+        "name": "Lasagne",
+        "ingredients": [
+            {"name": "Makaron do lasagne", "weight": 300},
+            {"name": "Mięso mielone", "weight": 400},
+            {"name": "Sos pomidorowy", "weight": 250},
+            {"name": "Béchamel", "weight": 150},
+            {"name": "Ser mozzarella", "weight": 100},
+            {"name": "Sól", "weight": 7}
+        ]
+    },
+    {
+        "name": "Kotlet Schabowy",
+        "ingredients": [
+            {"name": "Schab", "weight": 200},
+            {"name": "Jajko", "weight": 50},
+            {"name": "Bułka tarta", "weight": 30},
+            {"name": "Czosnek", "weight": 10},
+            {"name": "Sól", "weight": 3},
+            {"name": "Pieprz", "weight": 2}
+        ]
+    },
+    {
+        "name": "Risotto z Grzybami",
+        "ingredients": [
+            {"name": "Ryż arbosio", "weight": 300},
+            {"name": "Grzyby", "weight": 150},
+            {"name": "Cebula", "weight": 80},
+            {"name": "Bulion warzywny", "weight": 200},
+            {"name": "Masło", "weight": 30},
+            {"name": "Sól", "weight": 4}
+        ]
+    },
+    {
+        "name": "Krewetki w Czosku",
+        "ingredients": [
+            {"name": "Krewetki", "weight": 180},
+            {"name": "Czosnek", "weight": 20},
+            {"name": "Oliwa z oliwek", "weight": 40},
+            {"name": "Pietruszka", "weight": 10},
+            {"name": "Sól", "weight": 4},
+            {"name": "Pieprz", "weight": 2}
+        ]
+    },
+    {
+        "name": "Karkówka BBQ",
+        "ingredients": [
+            {"name": "Karkówka wieprzowa", "weight": 300},
+            {"name": "Sos BBQ", "weight": 100},
+            {"name": "Czosnek", "weight": 15},
+            {"name": "Cebula", "weight": 50},
+            {"name": "Sól", "weight": 5},
+            {"name": "Pieprz", "weight": 3}
+        ]
+    },
+    {
+        "name": "Sernik z Malinami",
+        "ingredients": [
+            {"name": "Ser twarogowy", "weight": 180},
+            {"name": "Jajko", "weight": 80},
+            {"name": "Cukier", "weight": 120},
+            {"name": "Mąka", "weight": 50},
+            {"name": "Maliny", "weight": 100},
+            {"name": "Cynamon", "weight": 5}
+        ]
+    }
+]
