@@ -1,8 +1,7 @@
 #include "HX711.h"
-#include <iostream>
-#include <numeric>
+#include <wiringPi.h>
 
-HX711::HX711(int dout, int pd_sck) : offset(0), scale(1.0) {
+HX711::HX711(int dout, int pd_sck) : offset(0), scale(1.0), gain(128) {
     PD_SCK = pd_sck;
     DOUT = dout;
 
@@ -37,7 +36,10 @@ long HX711::read() {
     }
 
     // Puls dodatkowy
-    pulse();
+    for (int i = 0; i < gain; ++i) {
+        pulse();
+    }
+
     count ^= 0x800000; // Konwersja 2-komplementu
 
     return static_cast<long>(count);
@@ -62,3 +64,21 @@ float HX711::get_units(int times) {
     }
     return (sum / times - offset) / scale;
 }
+
+void HX711::set_gain(int gain) {
+    switch (gain) {
+        case 128: // Channel A, gain factor 128
+            this->gain = 1;
+            break;
+        case 64: // Channel A, gain factor 64
+            this->gain = 3;
+            break;
+        case 32: // Channel B, gain factor 32
+            this->gain = 2;
+            break;
+        default:
+            this->gain = 1; // Domyślnie ustawienie na 128
+            break;
+    }
+}
+
